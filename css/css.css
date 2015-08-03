@@ -1,0 +1,51 @@
+*,
+*:before,'
+*:after{
+	margin: 0px;
+	padding: 0px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div{
+}
+
+.clearfix{
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.contain{
+	max-width: 960px;
+	margin: 0px auto; 
+}
+
+.center{
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	text-align: center;
+}
+
+ul li{
+	list-style-type: none;
+}
+.read{
+	max-width: 460px; 
+	float: left;
+}
+
+.watch{
+	max-width: 460px;
+	float: right;
+	margin-left: 40px;
+}
+nav ul li{
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+}
